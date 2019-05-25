@@ -27,6 +27,9 @@ function doWhileLoop() {
 } 
 while (i < 1);
 i++;
-if (i > 10);
-console.log("I run once regardless.");
+do {
+  return("I run once regardless.");
+  while (i > 10);
+  i++;
+}
 }
